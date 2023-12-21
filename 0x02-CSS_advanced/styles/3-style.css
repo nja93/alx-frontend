@@ -1,32 +1,37 @@
+/* variables */
 :root {
     --color-primary: #d73953;
     --color-black: #090909;
-    --color-white: ##ffffff;
+    --color-white: #ffffff;
     --color-light-grey: #f3f3f3;
     --color-dark-grey: #353535;
     --text-color: var(--color-black);
+
 }
 
-/*trigger scrolling on element*/
+/* smooth scrolling */
 html {
-	scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
+
+/* add colors */
 body {
-	color: var(--text-color);
+    color: var(--text-color);
+
 }
 
 a {
-	color: var(--text-color);
+    color: var(--text-color);
 }
-/*elements visually on a webpage while keeping
-them accessible to screen readers or assistive technologies
-*/
+
 .visually-hidden {
-	display: none;
+    display: none;
 }
+
 .card-category {
-	color: var(--color-primary);
+    color: var(--color-primary);
 }
+
 .section-tagline {
-	color: var(--color-primary);
+    color: var(--color-primary);
 }
