@@ -1,0 +1,23 @@
+/*trigger scrolling on element*/
+html {
+	scroll-behavior: smooth;
+}
+body {
+	color: #161616;
+}
+
+a {
+	color: #161616;
+}
+/*elements visually on a webpage while keeping
+them accessible to screen readers or assistive technologies
+*/
+.visually-hidden {
+	display: none;
+}
+.card-category {
+	color: #D73953;
+}
+.section-tagline {
+	color: #D73953;
+}
