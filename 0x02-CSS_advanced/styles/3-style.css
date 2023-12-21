@@ -1,13 +1,22 @@
+:root {
+    --color-primary: #d73953;
+    --color-black: #090909;
+    --color-white: ##ffffff;
+    --color-light-grey: #f3f3f3;
+    --color-dark-grey: #353535;
+    --text-color: var(--color-black);
+}
+
 /*trigger scrolling on element*/
 html {
 	scroll-behavior: smooth;
 }
 body {
-	color: text-color;
+	color: var(--text-color);
 }
 
 a {
-	color: text-color;
+	color: var(--text-color);
 }
 /*elements visually on a webpage while keeping
 them accessible to screen readers or assistive technologies
@@ -16,18 +25,8 @@ them accessible to screen readers or assistive technologies
 	display: none;
 }
 .card-category {
-	color: color-primary;
+	color: var(--color-primary);
 }
 .section-tagline {
-	color: color-primary;
-}
-
-:root {
-    --color-primary: #d73953;
-    --color-black: #090909;
-    --color-white: ##ffffff;
-    --color-light-grey: #f3f3f3;
-    --color-dark-grey: #353535;
-    --text-color: color-black;
-
+	color: var(--color-primary);
 }
