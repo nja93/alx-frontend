@@ -1,0 +1,33 @@
+/*trigger scrolling on element*/
+html {
+	scroll-behavior: smooth;
+}
+body {
+	color: text-color;
+}
+
+a {
+	color: text-color;
+}
+/*elements visually on a webpage while keeping
+them accessible to screen readers or assistive technologies
+*/
+.visually-hidden {
+	display: none;
+}
+.card-category {
+	color: color-primary;
+}
+.section-tagline {
+	color: color-primary;
+}
+
+:root {
+    --color-primary: #d73953;
+    --color-black: #090909;
+    --color-white: ##ffffff;
+    --color-light-grey: #f3f3f3;
+    --color-dark-grey: #353535;
+    --text-color: color-black;
+
+}
