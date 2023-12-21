@@ -1,0 +1,4 @@
+/*trigger scrolling on element*/
+html {
+	scroll-behavior: smooth;
+}
